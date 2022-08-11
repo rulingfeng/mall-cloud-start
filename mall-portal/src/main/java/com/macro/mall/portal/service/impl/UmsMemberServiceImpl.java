@@ -39,13 +39,13 @@ import java.util.Random;
 @Service
 public class UmsMemberServiceImpl implements UmsMemberService {
     private static final Logger LOGGER = LoggerFactory.getLogger(UmsMemberServiceImpl.class);
-    @Autowired
+//    @Autowired
     private PasswordEncoder passwordEncoder;
-    @Autowired
+//    @Autowired
     private JwtTokenUtil jwtTokenUtil;
-    @Autowired
+//    @Autowired
     private UmsMemberMapper memberMapper;
-    @Autowired
+//    @Autowired
     private UmsMemberLevelMapper memberLevelMapper;
     @Autowired
     private RedisService redisService;

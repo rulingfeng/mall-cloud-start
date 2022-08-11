@@ -19,7 +19,7 @@ import java.util.stream.Collectors;
  */
 @Service
 public class UmsMenuServiceImpl implements UmsMenuService {
-    @Autowired
+//    @Autowired
     private UmsMenuMapper menuMapper;
 
     @Override

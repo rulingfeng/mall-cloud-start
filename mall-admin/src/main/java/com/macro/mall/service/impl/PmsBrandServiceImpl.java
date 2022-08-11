@@ -22,9 +22,9 @@ import java.util.List;
  */
 @Service
 public class PmsBrandServiceImpl implements PmsBrandService {
-    @Autowired
+//    @Autowired
     private PmsBrandMapper brandMapper;
-    @Autowired
+//    @Autowired
     private PmsProductMapper productMapper;
 
     @Override

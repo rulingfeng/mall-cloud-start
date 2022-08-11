@@ -23,17 +23,17 @@ import java.util.List;
  */
 @Service
 public class UmsRoleServiceImpl implements UmsRoleService {
-    @Autowired
+//    @Autowired
     private UmsRoleMapper roleMapper;
-    @Autowired
+//    @Autowired
     private UmsRolePermissionRelationMapper rolePermissionRelationMapper;
-    @Autowired
+//    @Autowired
     private UmsRoleMenuRelationMapper roleMenuRelationMapper;
-    @Autowired
+//    @Autowired
     private UmsRoleResourceRelationMapper roleResourceRelationMapper;
-    @Autowired
+//    @Autowired
     private UmsRolePermissionRelationDao rolePermissionRelationDao;
-    @Autowired
+//    @Autowired
     private UmsRoleDao roleDao;
     @Override
     public int create(UmsRole role) {

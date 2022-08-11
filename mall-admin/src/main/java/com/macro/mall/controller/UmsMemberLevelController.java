@@ -22,7 +22,7 @@ import java.util.List;
 @Api(tags = "UmsMemberLevelController", description = "会员等级管理")
 @RequestMapping("/memberLevel")
 public class UmsMemberLevelController {
-    @Autowired
+//    @Autowired
     private UmsMemberLevelService memberLevelService;
 
     @RequestMapping(value = "/list", method = RequestMethod.GET)

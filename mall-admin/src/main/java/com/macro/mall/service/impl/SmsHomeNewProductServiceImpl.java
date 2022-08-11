@@ -17,7 +17,7 @@ import java.util.List;
  */
 @Service
 public class SmsHomeNewProductServiceImpl implements SmsHomeNewProductService {
-    @Autowired
+//    @Autowired
     private SmsHomeNewProductMapper homeNewProductMapper;
     @Override
     public int create(List<SmsHomeNewProduct> homeNewProductList) {

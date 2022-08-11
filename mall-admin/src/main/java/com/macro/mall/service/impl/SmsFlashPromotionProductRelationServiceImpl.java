@@ -18,9 +18,9 @@ import java.util.List;
  */
 @Service
 public class SmsFlashPromotionProductRelationServiceImpl implements SmsFlashPromotionProductRelationService {
-    @Autowired
+//    @Autowired
     private SmsFlashPromotionProductRelationMapper relationMapper;
-    @Autowired
+//    @Autowired
     private SmsFlashPromotionProductRelationDao relationDao;
     @Override
     public int create(List<SmsFlashPromotionProductRelation> relationList) {

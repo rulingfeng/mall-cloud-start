@@ -14,7 +14,7 @@ import java.util.List;
  */
 @Service
 public class MemberAttentionServiceImpl implements MemberAttentionService {
-    @Autowired
+//    @Autowired
     private MemberBrandAttentionRepository memberBrandAttentionRepository;
 
     @Override

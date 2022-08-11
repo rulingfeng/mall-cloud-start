@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("/feign/portal")
 public class FeignPortalController {
 
-    @Autowired
+//    @Autowired
     private FeignPortalService portalService;
 
     @PostMapping("/login")

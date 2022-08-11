@@ -6,6 +6,7 @@ import com.macro.mall.model.CmsSubject;
 import com.macro.mall.service.CmsSubjectService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -22,6 +23,7 @@ import java.util.List;
 @Controller
 @Api(tags = "CmsSubjectController", description = "商品专题管理")
 @RequestMapping("/subject")
+@Slf4j
 public class CmsSubjectController {
     @Autowired
     private CmsSubjectService subjectService;
@@ -47,7 +49,8 @@ public class CmsSubjectController {
     @ResponseBody
     public CommonResult<CommonPage<CmsSubject>> save() {
         try{
-            subjectService.save();
+            //subjectService.save();
+            log.info("调用到amin");
             return CommonResult.success();
         }catch (RuntimeException e){
             return CommonResult.failed(e.getMessage());

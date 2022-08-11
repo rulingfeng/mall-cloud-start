@@ -25,37 +25,37 @@ import java.util.*;
  */
 @Service
 public class OmsPortalOrderServiceImpl implements OmsPortalOrderService {
-    @Autowired
+//    @Autowired
     private UmsMemberService memberService;
-    @Autowired
+//    @Autowired
     private OmsCartItemService cartItemService;
-    @Autowired
+//    @Autowired
     private UmsMemberReceiveAddressService memberReceiveAddressService;
-    @Autowired
+//    @Autowired
     private UmsMemberCouponService memberCouponService;
-    @Autowired
+//    @Autowired
     private UmsIntegrationConsumeSettingMapper integrationConsumeSettingMapper;
-    @Autowired
+//    @Autowired
     private PmsSkuStockMapper skuStockMapper;
-    @Autowired
+//    @Autowired
     private SmsCouponHistoryDao couponHistoryDao;
-    @Autowired
+//    @Autowired
     private OmsOrderMapper orderMapper;
-    @Autowired
+//    @Autowired
     private PortalOrderItemDao orderItemDao;
-    @Autowired
+//    @Autowired
     private SmsCouponHistoryMapper couponHistoryMapper;
     @Autowired
     private RedisService redisService;
     @Value("${redis.key.prefix.orderId}")
     private String REDIS_KEY_PREFIX_ORDER_ID;
-    @Autowired
+//    @Autowired
     private PortalOrderDao portalOrderDao;
-    @Autowired
+//    @Autowired
     private OmsOrderSettingMapper orderSettingMapper;
-    @Autowired
+//    @Autowired
     private OmsOrderItemMapper orderItemMapper;
-    @Autowired
+//    @Autowired
     private CancelOrderSender cancelOrderSender;
 
     @Override

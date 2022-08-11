@@ -12,7 +12,7 @@ import org.springframework.stereotype.Service;
  */
 @Service
 public class OmsOrderSettingServiceImpl implements OmsOrderSettingService {
-    @Autowired
+//    @Autowired
     private OmsOrderSettingMapper orderSettingMapper;
 
     @Override

@@ -24,15 +24,15 @@ import java.util.List;
  */
 @Service
 public class PmsProductCategoryServiceImpl implements PmsProductCategoryService {
-    @Autowired
+//    @Autowired
     private PmsProductCategoryMapper productCategoryMapper;
-    @Autowired
+//    @Autowired
     private PmsProductMapper productMapper;
-    @Autowired
+//    @Autowired
     private PmsProductCategoryAttributeRelationDao productCategoryAttributeRelationDao;
-    @Autowired
+//    @Autowired
     private PmsProductCategoryAttributeRelationMapper productCategoryAttributeRelationMapper;
-    @Autowired
+//    @Autowired
     private PmsProductCategoryDao productCategoryDao;
     @Override
     public int create(PmsProductCategoryParam pmsProductCategoryParam) {

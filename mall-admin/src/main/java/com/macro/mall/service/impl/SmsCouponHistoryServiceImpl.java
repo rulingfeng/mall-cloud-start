@@ -17,7 +17,7 @@ import java.util.List;
  */
 @Service
 public class SmsCouponHistoryServiceImpl implements SmsCouponHistoryService {
-    @Autowired
+//    @Autowired
     private SmsCouponHistoryMapper historyMapper;
     @Override
     public List<SmsCouponHistory> list(Long couponId, Integer useStatus, String orderSn, Integer pageSize, Integer pageNum) {

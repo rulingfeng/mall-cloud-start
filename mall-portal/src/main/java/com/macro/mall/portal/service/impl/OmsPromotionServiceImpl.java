@@ -23,7 +23,7 @@ import java.util.*;
  */
 @Service
 public class OmsPromotionServiceImpl implements OmsPromotionService {
-    @Autowired
+//    @Autowired
     private PortalProductDao portalProductDao;
 
     @Override

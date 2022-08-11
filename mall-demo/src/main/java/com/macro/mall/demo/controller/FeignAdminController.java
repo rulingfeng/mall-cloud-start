@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping("/feign/admin")
 public class FeignAdminController {
-    @Autowired
+//    @Autowired
     private FeignAdminService adminService;
 
     @PostMapping("/login")

@@ -23,13 +23,13 @@ import java.util.stream.Collectors;
  */
 @Service
 public class OmsOrderServiceImpl implements OmsOrderService {
-    @Autowired
+//    @Autowired
     private OmsOrderMapper orderMapper;
-    @Autowired
+//    @Autowired
     private OmsOrderDao orderDao;
-    @Autowired
+//    @Autowired
     private OmsOrderOperateHistoryDao orderOperateHistoryDao;
-    @Autowired
+//    @Autowired
     private OmsOrderOperateHistoryMapper orderOperateHistoryMapper;
 
     @Override

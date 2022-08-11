@@ -20,7 +20,7 @@ import java.util.List;
 @Api(tags = "SmsHomeBrandController", description = "首页品牌管理")
 @RequestMapping("/home/brand")
 public class SmsHomeBrandController {
-    @Autowired
+//    @Autowired
     private SmsHomeBrandService homeBrandService;
 
     @ApiOperation("添加首页推荐品牌")

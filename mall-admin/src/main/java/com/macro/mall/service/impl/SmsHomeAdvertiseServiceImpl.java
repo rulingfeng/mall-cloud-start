@@ -20,7 +20,7 @@ import java.util.List;
  */
 @Service
 public class SmsHomeAdvertiseServiceImpl implements SmsHomeAdvertiseService {
-    @Autowired
+//    @Autowired
     private SmsHomeAdvertiseMapper advertiseMapper;
 
     @Override

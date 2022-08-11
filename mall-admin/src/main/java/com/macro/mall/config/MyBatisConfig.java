@@ -8,8 +8,8 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
  * MyBatis配置类
  * Created by macro on 2019/4/8.
  */
-@Configuration
-@EnableTransactionManagement
-@MapperScan({"com.macro.mall.mapper","com.macro.mall.dao"})
+//@Configuration
+//@EnableTransactionManagement
+//@MapperScan({"com.macro.mall.mapper","com.macro.mall.dao"})
 public class MyBatisConfig {
 }

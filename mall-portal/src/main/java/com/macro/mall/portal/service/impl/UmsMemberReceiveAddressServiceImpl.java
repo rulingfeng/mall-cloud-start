@@ -18,9 +18,9 @@ import java.util.List;
  */
 @Service
 public class UmsMemberReceiveAddressServiceImpl implements UmsMemberReceiveAddressService {
-    @Autowired
+//    @Autowired
     private UmsMemberService memberService;
-    @Autowired
+//    @Autowired
     private UmsMemberReceiveAddressMapper addressMapper;
     @Override
     public int add(UmsMemberReceiveAddress address) {

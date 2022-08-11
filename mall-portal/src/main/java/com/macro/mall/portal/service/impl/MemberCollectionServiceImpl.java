@@ -14,7 +14,7 @@ import java.util.List;
  */
 @Service
 public class MemberCollectionServiceImpl implements MemberCollectionService {
-    @Autowired
+//    @Autowired
     private MemberProductCollectionRepository productCollectionRepository;
 
     @Override

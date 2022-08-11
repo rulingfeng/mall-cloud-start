@@ -22,17 +22,17 @@ import java.util.List;
  */
 @Service
 public class SmsCouponServiceImpl implements SmsCouponService {
-    @Autowired
+//    @Autowired
     private SmsCouponMapper couponMapper;
-    @Autowired
+//    @Autowired
     private SmsCouponProductRelationMapper productRelationMapper;
-    @Autowired
+//    @Autowired
     private SmsCouponProductCategoryRelationMapper productCategoryRelationMapper;
-    @Autowired
+//    @Autowired
     private SmsCouponProductRelationDao productRelationDao;
-    @Autowired
+//    @Autowired
     private SmsCouponProductCategoryRelationDao productCategoryRelationDao;
-    @Autowired
+//    @Autowired
     private SmsCouponDao couponDao;
     @Override
     public int create(SmsCouponParam couponParam) {

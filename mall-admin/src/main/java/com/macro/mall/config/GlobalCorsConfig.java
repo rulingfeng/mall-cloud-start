@@ -11,7 +11,7 @@ import org.springframework.web.filter.CorsFilter;
  * 注意：前端从网关进行调用时不需要配置
  * Created by macro on 2019/7/27.
  */
-//@Configuration
+@Configuration
 public class GlobalCorsConfig {
 
     /**

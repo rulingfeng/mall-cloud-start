@@ -23,7 +23,7 @@ import java.util.List;
 @Api(tags = "OmsOrderReturnApplyController", description = "订单退货申请管理")
 @RequestMapping("/returnApply")
 public class OmsOrderReturnApplyController {
-    @Autowired
+//    @Autowired
     private OmsOrderReturnApplyService returnApplyService;
 
     @ApiOperation("分页查询退货申请")

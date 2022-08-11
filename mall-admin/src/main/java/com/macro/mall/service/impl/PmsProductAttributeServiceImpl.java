@@ -22,11 +22,11 @@ import java.util.List;
  */
 @Service
 public class PmsProductAttributeServiceImpl implements PmsProductAttributeService {
-    @Autowired
+//    @Autowired
     private PmsProductAttributeMapper productAttributeMapper;
-    @Autowired
+//    @Autowired
     private PmsProductAttributeCategoryMapper productAttributeCategoryMapper;
-    @Autowired
+//    @Autowired
     private PmsProductAttributeDao productAttributeDao;
 
     @Override

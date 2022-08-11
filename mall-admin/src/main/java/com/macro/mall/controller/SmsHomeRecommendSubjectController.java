@@ -20,7 +20,7 @@ import java.util.List;
 @Api(tags = "SmsHomeRecommendSubjectController", description = "首页专题推荐管理")
 @RequestMapping("/home/recommendSubject")
 public class SmsHomeRecommendSubjectController {
-    @Autowired
+//    @Autowired
     private SmsHomeRecommendSubjectService recommendSubjectService;
 
     @ApiOperation("添加首页推荐专题")

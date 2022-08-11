@@ -21,9 +21,9 @@ import java.util.List;
  */
 @Service
 public class OmsOrderReturnApplyServiceImpl implements OmsOrderReturnApplyService {
-    @Autowired
+//    @Autowired
     private OmsOrderReturnApplyDao returnApplyDao;
-    @Autowired
+//    @Autowired
     private OmsOrderReturnApplyMapper returnApplyMapper;
     @Override
     public List<OmsOrderReturnApply> list(OmsReturnApplyQueryParam queryParam, Integer pageSize, Integer pageNum) {

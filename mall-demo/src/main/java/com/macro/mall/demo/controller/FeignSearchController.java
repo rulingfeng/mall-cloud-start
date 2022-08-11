@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("/feign/search")
 public class FeignSearchController {
 
-    @Autowired
+//    @Autowired
     private FeignSearchService feignSearchService;
 
     @ApiOperation(value = "简单商品搜索")

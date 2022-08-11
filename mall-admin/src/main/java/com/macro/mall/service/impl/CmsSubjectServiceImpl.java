@@ -19,7 +19,7 @@ import java.util.List;
  */
 @Service
 public class CmsSubjectServiceImpl implements CmsSubjectService {
-    @Autowired
+//    @Autowired
     private CmsSubjectMapper subjectMapper;
 
     @Override

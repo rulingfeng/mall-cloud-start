@@ -45,21 +45,21 @@ import java.util.stream.Collectors;
 @Service
 public class UmsAdminServiceImpl implements UmsAdminService {
     private static final Logger LOGGER = LoggerFactory.getLogger(UmsAdminServiceImpl.class);
-    @Autowired
+//    @Autowired
     private JwtTokenUtil jwtTokenUtil;
-    @Autowired
+//    @Autowired
     private PasswordEncoder passwordEncoder;
-    @Autowired
+//    @Autowired
     private UmsAdminMapper adminMapper;
-    @Autowired
+//    @Autowired
     private UmsAdminRoleRelationMapper adminRoleRelationMapper;
-    @Autowired
+//    @Autowired
     private UmsAdminRoleRelationDao adminRoleRelationDao;
-    @Autowired
+//    @Autowired
     private UmsAdminPermissionRelationMapper adminPermissionRelationMapper;
-    @Autowired
+//    @Autowired
     private UmsAdminPermissionRelationDao adminPermissionRelationDao;
-    @Autowired
+//    @Autowired
     private UmsAdminLoginLogMapper loginLogMapper;
 
     @Override

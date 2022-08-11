@@ -24,13 +24,13 @@ import java.util.Random;
  */
 @Service
 public class UmsMemberCouponServiceImpl implements UmsMemberCouponService {
-    @Autowired
+//    @Autowired
     private UmsMemberService memberService;
-    @Autowired
+//    @Autowired
     private SmsCouponMapper couponMapper;
-    @Autowired
+//    @Autowired
     private SmsCouponHistoryMapper couponHistoryMapper;
-    @Autowired
+//    @Autowired
     private SmsCouponHistoryDao couponHistoryDao;
     @Override
     public void add(Long couponId) {

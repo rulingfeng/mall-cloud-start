@@ -22,19 +22,19 @@ import java.util.List;
  */
 @Service
 public class HomeServiceImpl implements HomeService {
-    @Autowired
+//    @Autowired
     private SmsHomeAdvertiseMapper advertiseMapper;
-    @Autowired
+//    @Autowired
     private HomeDao homeDao;
-    @Autowired
+//    @Autowired
     private SmsFlashPromotionMapper flashPromotionMapper;
-    @Autowired
+//    @Autowired
     private SmsFlashPromotionSessionMapper promotionSessionMapper;
-    @Autowired
+//    @Autowired
     private PmsProductMapper productMapper;
-    @Autowired
+//    @Autowired
     private PmsProductCategoryMapper productCategoryMapper;
-    @Autowired
+//    @Autowired
     private CmsSubjectMapper subjectMapper;
 
     @Override

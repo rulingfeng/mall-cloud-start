@@ -16,7 +16,7 @@ import java.util.List;
  */
 @Service
 public class MemberReadHistoryServiceImpl implements MemberReadHistoryService {
-    @Autowired
+//    @Autowired
     private MemberReadHistoryRepository memberReadHistoryRepository;
     @Override
     public int create(MemberReadHistory memberReadHistory) {

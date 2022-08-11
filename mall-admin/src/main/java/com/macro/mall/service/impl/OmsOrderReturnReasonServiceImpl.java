@@ -17,7 +17,7 @@ import java.util.List;
  */
 @Service
 public class OmsOrderReturnReasonServiceImpl implements OmsOrderReturnReasonService {
-    @Autowired
+//    @Autowired
     private OmsOrderReturnReasonMapper returnReasonMapper;
     @Override
     public int create(OmsOrderReturnReason returnReason) {

@@ -25,13 +25,13 @@ import java.util.List;
  */
 @Service
 public class OmsCartItemServiceImpl implements OmsCartItemService {
-    @Autowired
+//    @Autowired
     private OmsCartItemMapper cartItemMapper;
-    @Autowired
+//    @Autowired
     private PortalProductDao productDao;
-    @Autowired
+//    @Autowired
     private OmsPromotionService promotionService;
-    @Autowired
+//    @Autowired
     private UmsMemberService memberService;
 
     @Override

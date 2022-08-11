@@ -18,9 +18,9 @@ import java.util.List;
  */
 @Service
 public class PmsProductAttributeCategoryServiceImpl implements PmsProductAttributeCategoryService {
-    @Autowired
+//    @Autowired
     private PmsProductAttributeCategoryMapper productAttributeCategoryMapper;
-    @Autowired
+//    @Autowired
     private PmsProductAttributeCategoryDao productAttributeCategoryDao;
 
     @Override

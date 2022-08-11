@@ -16,7 +16,7 @@ import java.util.Date;
  */
 @Service
 public class OmsPortalOrderReturnApplyServiceImpl implements OmsPortalOrderReturnApplyService {
-    @Autowired
+//    @Autowired
     private OmsOrderReturnApplyMapper returnApplyMapper;
     @Override
     public int create(OmsOrderReturnApplyParam returnApply) {

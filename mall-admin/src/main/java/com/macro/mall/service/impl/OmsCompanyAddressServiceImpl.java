@@ -15,7 +15,7 @@ import java.util.List;
  */
 @Service
 public class OmsCompanyAddressServiceImpl implements OmsCompanyAddressService {
-    @Autowired
+//    @Autowired
     private OmsCompanyAddressMapper companyAddressMapper;
     @Override
     public List<OmsCompanyAddress> list() {

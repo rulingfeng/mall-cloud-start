@@ -20,9 +20,9 @@ import java.util.List;
  */
 @Service
 public class SmsFlashPromotionSessionServiceImpl implements SmsFlashPromotionSessionService {
-    @Autowired
+//    @Autowired
     private SmsFlashPromotionSessionMapper promotionSessionMapper;
-    @Autowired
+//    @Autowired
     private SmsFlashPromotionProductRelationService relationService;
 
     @Override

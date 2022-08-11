@@ -1,5 +1,6 @@
 package com.macro.mall.controller;
 
+import com.google.common.collect.Lists;
 import com.macro.mall.common.api.CommonPage;
 import com.macro.mall.common.api.CommonResult;
 import com.macro.mall.dto.PmsProductParam;
@@ -65,11 +66,12 @@ public class PmsProductController {
     public CommonResult<CommonPage<PmsProduct>> getList(PmsProductQueryParam productQueryParam,
                                                         @RequestParam(value = "pageSize", defaultValue = "5") Integer pageSize,
                                                         @RequestParam(value = "pageNum", defaultValue = "1") Integer pageNum) {
-        List<PmsProduct> productList = productService.list(productQueryParam, pageSize, pageNum);
+       // List<PmsProduct> productList = productService.list(productQueryParam, pageSize, pageNum);
 //        if(true){
 //            throw new RuntimeException("aaa");
 //        }
-        return CommonResult.success(CommonPage.restPage(productList));
+//        return CommonResult.success(CommonPage.restPage(productList));
+        return CommonResult.success(CommonPage.restPage(Lists.newArrayList()));
     }
 
     @ApiOperation("根据商品名称或货号模糊查询")

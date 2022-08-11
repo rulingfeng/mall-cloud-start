@@ -12,6 +12,7 @@ import com.rlf.module.service.UserService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.models.auth.In;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;
@@ -42,6 +43,7 @@ import java.util.concurrent.TimeUnit;
 @Api(tags = "RestTemplateDemoController", description = "RestTemplate示例")
 @Controller
 @RequestMapping("/template")
+@Slf4j
 public class RestTemplateDemoController {
 
     @Resource
@@ -62,7 +64,8 @@ public class RestTemplateDemoController {
         user.setId(1);
         user.setUserName("你好");
         user.setAge("18");
-        userService.insert(user);
+//        userService.insert(user);
+        log.info("进入testSeata服务");
         String url = HOST_MALL_ADMIN + "/subject/save";
         ResponseEntity<CommonResult> responseEntity = restTemplate.getForEntity(url, CommonResult.class, new HashMap<>());
         System.out.println(JSONObject.toJSONString(responseEntity.getBody()));

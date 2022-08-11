@@ -18,7 +18,7 @@ import java.util.List;
  */
 @Service
 public class UmsResourceServiceImpl implements UmsResourceService {
-    @Autowired
+//    @Autowired
     private UmsResourceMapper resourceMapper;
     @Override
     public int create(UmsResource umsResource) {

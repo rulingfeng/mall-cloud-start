@@ -30,39 +30,39 @@ import java.util.stream.Collectors;
 @Service
 public class PmsProductServiceImpl implements PmsProductService {
     private static final Logger LOGGER = LoggerFactory.getLogger(PmsProductServiceImpl.class);
-    @Autowired
+//    @Autowired
     private PmsProductMapper productMapper;
-    @Autowired
+//    @Autowired
     private PmsMemberPriceDao memberPriceDao;
-    @Autowired
+//    @Autowired
     private PmsMemberPriceMapper memberPriceMapper;
-    @Autowired
+//    @Autowired
     private PmsProductLadderDao productLadderDao;
-    @Autowired
+//    @Autowired
     private PmsProductLadderMapper productLadderMapper;
-    @Autowired
+//    @Autowired
     private PmsProductFullReductionDao productFullReductionDao;
-    @Autowired
+//    @Autowired
     private PmsProductFullReductionMapper productFullReductionMapper;
-    @Autowired
+//    @Autowired
     private PmsSkuStockDao skuStockDao;
-    @Autowired
+//    @Autowired
     private PmsSkuStockMapper skuStockMapper;
-    @Autowired
+//    @Autowired
     private PmsProductAttributeValueDao productAttributeValueDao;
-    @Autowired
+//    @Autowired
     private PmsProductAttributeValueMapper productAttributeValueMapper;
-    @Autowired
+//    @Autowired
     private CmsSubjectProductRelationDao subjectProductRelationDao;
-    @Autowired
+//    @Autowired
     private CmsSubjectProductRelationMapper subjectProductRelationMapper;
-    @Autowired
+//    @Autowired
     private CmsPrefrenceAreaProductRelationDao prefrenceAreaProductRelationDao;
-    @Autowired
+//    @Autowired
     private CmsPrefrenceAreaProductRelationMapper prefrenceAreaProductRelationMapper;
-    @Autowired
+//    @Autowired
     private PmsProductDao productDao;
-    @Autowired
+//    @Autowired
     private PmsProductVertifyRecordDao productVertifyRecordDao;
 
     @Override

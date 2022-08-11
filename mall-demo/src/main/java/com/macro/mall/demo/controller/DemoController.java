@@ -23,7 +23,7 @@ import java.util.List;
 @Api(tags = "DemoController", description = "商品管理示例接口")
 @Controller
 public class DemoController {
-    @Autowired
+//    @Autowired
     private DemoService demoService;
 
     private static final Logger LOGGER = LoggerFactory.getLogger(DemoController.class);

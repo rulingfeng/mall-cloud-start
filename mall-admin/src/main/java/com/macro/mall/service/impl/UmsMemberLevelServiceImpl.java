@@ -15,7 +15,7 @@ import java.util.List;
  */
 @Service
 public class UmsMemberLevelServiceImpl implements UmsMemberLevelService{
-    @Autowired
+//    @Autowired
     private UmsMemberLevelMapper memberLevelMapper;
     @Override
     public List<UmsMemberLevel> list(Integer defaultStatus) {

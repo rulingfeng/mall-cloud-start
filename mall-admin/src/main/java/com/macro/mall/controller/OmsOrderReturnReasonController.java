@@ -20,7 +20,7 @@ import java.util.List;
 @Api(tags = "OmsOrderReturnReasonController", description = "退货原因管理")
 @RequestMapping("/returnReason")
 public class OmsOrderReturnReasonController {
-    @Autowired
+//    @Autowired
     private OmsOrderReturnReasonService orderReturnReasonService;
 
     @ApiOperation("添加退货原因")
