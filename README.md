@@ -1,3 +1,17 @@
+#启动顺序
+registry (http://localhost:8001/)
+config
+geteway
+admin
+RlfModule
+请求:http://localhost:8188/module/test    (8188是RlfModule服务的端口)
+
+
+
+
+
+
+
 # mall-swarm
 
 <p>

@@ -1,8 +1,8 @@
 package com.macro.mall.portal.config;
 
 import com.macro.mall.portal.service.UmsMemberService;
-import com.macro.mall.security.component.DynamicSecurityService;
-import com.macro.mall.security.config.SecurityConfig;
+//import com.macro.mall.security.component.DynamicSecurityService;
+//import com.macro.mall.security.config.SecurityConfig;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -22,7 +22,7 @@ import java.util.concurrent.ConcurrentHashMap;
 @Configuration
 @EnableWebSecurity
 @EnableGlobalMethodSecurity(prePostEnabled = true)
-public class MallSecurityConfig extends SecurityConfig {
+public class MallSecurityConfig  {
 
     @Autowired
     private UmsMemberService memberService;
