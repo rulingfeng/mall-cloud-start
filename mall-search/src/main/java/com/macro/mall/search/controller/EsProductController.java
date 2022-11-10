@@ -72,6 +72,14 @@ public class EsProductController {
         return CommonResult.success(CommonPage.restPage(esProductPage));
     }
 
+    @ApiOperation(value = "简单搜索")
+    @RequestMapping(value = "/okde", method = RequestMethod.GET)
+    @ResponseBody
+    public CommonResult<String> okde() {
+
+        return CommonResult.success("okde");
+    }
+
     @ApiOperation(value = "综合搜索、筛选、排序")
     @ApiImplicitParam(name = "sort", value = "排序字段:0->按相关度；1->按新品；2->按销量；3->价格从低到高；4->价格从高到低",
             defaultValue = "0", allowableValues = "0,1,2,3,4", paramType = "query", dataType = "integer")

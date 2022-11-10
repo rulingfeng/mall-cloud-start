@@ -7,6 +7,15 @@ RlfModule
 请求:http://localhost:8188/module/test    (8188是RlfModule服务的端口)
 
 
+#启动顺序
+registry (http://localhost:8001/)
+config
+geteway
+demo
+search
+请求:http://localhost:8082/feign/search/okde    (8082是demo服务的端口)
+
+
 
 
 

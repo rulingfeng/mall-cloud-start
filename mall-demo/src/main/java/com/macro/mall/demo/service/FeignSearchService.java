@@ -15,4 +15,7 @@ public interface FeignSearchService {
     CommonResult search(@RequestParam(required = false) String keyword,
                         @RequestParam(required = false, defaultValue = "0") Integer pageNum,
                         @RequestParam(required = false, defaultValue = "5") Integer pageSize);
+
+    @GetMapping("/esProduct/okde")
+    CommonResult okde();
 }

@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("/feign/search")
 public class FeignSearchController {
 
-//    @Autowired
+    @Autowired
     private FeignSearchService feignSearchService;
 
     @ApiOperation(value = "简单商品搜索")
@@ -27,5 +27,13 @@ public class FeignSearchController {
                                @RequestParam(required = false, defaultValue = "5") Integer pageSize) {
 
         return feignSearchService.search(keyword, pageNum, pageSize);
+    }
+
+    @ApiOperation(value = "")
+    @RequestMapping(value = "/okde", method = RequestMethod.GET)
+    @ResponseBody
+    public CommonResult okde() {
+        System.out.println(1);
+        return feignSearchService.okde();
     }
 }
